@@ -35,6 +35,5 @@ RSpec.describe TasksController, type: :controller do
       expect(response_value['title']).to eq("Fix things")
       expect(Task.last.title).to eq("Fix things")
     end
-
   end
 end
